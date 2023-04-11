@@ -226,7 +226,8 @@ position: relative;
   background: #FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  
+  padding: 24px;
+  display: block;
 }
 
 .close-button {
@@ -244,12 +245,45 @@ position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 .close-button:hover, .close-button:focus {
   background-color: #404BBF;
   border-radius: 50%;
   fill:#FFFFFF;
+}
+.modal-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin-top: 72px;
+}
+.modal-lable{
+  display: inline-block;
+  margin-bottom: 4px;  
+}
+.modal-input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+  margin-bottom: 26px;
+  padding-left: 38px;
+}
+.modal-input:hover, .modal-input:focus{
+  border: 1px solid #4D5AE5;
+border-radius: 4px;
+}
+.modal-lable-icon{
+  color: #2E2F42;
+  border-color: #3f51b5;
+  display: flex;
 }
 .close-button-icon{
 
