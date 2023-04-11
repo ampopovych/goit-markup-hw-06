@@ -290,7 +290,7 @@ position: relative;
   transform: translateY(-50%);
 }
 .modal-input:focus + .modal-input-icon{
-  color: #4D5AE5;
+  fill: #4D5AE5;
 }
 .input-wrap{
   position: relative;
