@@ -101,7 +101,7 @@
                                         id="client-prpol"
                                         name="client-prpol"
                                         value="true"
-                                        class="modal-check"
+                                        class="modal-check visually-hidden"
                                     />
                                     <label for="client-prpol" class="modal-lable-prpol">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
                                 </div>
@@ -387,6 +387,24 @@
                         </a>
                     </li>
                 </ul>
+        </div>
+        <div class="footer-subscr">
+            <p class="footer-soc-title">Subscribe</p>
+            <form class="subscribe-form">
+                <input                                    
+                    type="email" 
+                    class="footer-email-input" 
+                    name="emailfoot"
+                    id="emailfoot"
+                    placeholder="E-mail"
+                    />
+                <label for="emailfoot" class="subscribe"></label>
+                <button type="submit" class="btn">Subscribe
+                    <svg width="24" height="20" class="footer-send-icon">
+                        <use href="./images/socicon.svg#icon-send"></use>
+                    </svg>    
+                </button>
+            </form>
         </div>
     </div>    
 </footer>
