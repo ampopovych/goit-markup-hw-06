@@ -756,7 +756,7 @@ color: var(--color-slate);
 }
 .footer-subscr {
   height: 80px;
-  margin-left: 80px;
+  
 }
 .footer-soc-title {
 }
@@ -774,7 +774,7 @@ border-radius: 4px;
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 16px;
-
+color: white;
 }
 .subscribe {
 font-family: 'Roboto';
@@ -786,10 +786,14 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+vertical-align: auto;
 }
 .btn-subscribe{
 width: 165px;
 height: 40px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 24px;
 }
 .footer-send-icon {
 fill: white;
