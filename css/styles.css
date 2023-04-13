@@ -758,8 +758,7 @@ color: var(--color-slate);
 .subscribe-form {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
- }
+}
 .footer-email-input {
 width: 264px;
 height: 40px;
@@ -783,7 +782,12 @@ align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 }
-.btn {
+.btn-subscribe{
+width: 165px;
+height: 40px;
 }
 .footer-send-icon {
+fill: white;
+margin-left: 16px;
+vertical-align: auto;
 }
