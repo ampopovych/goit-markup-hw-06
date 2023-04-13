@@ -350,6 +350,10 @@ gap: 8px;
   border-radius: 2px;
   display: block;
 }
+.btn-modal{
+  width: 169px;
+  height: 56px;
+}
 .close-button-icon{
 
 }
@@ -752,12 +756,13 @@ color: var(--color-slate);
 }
 .footer-subscr {
   height: 80px;
+  margin-left: 80px;
 }
 .footer-soc-title {
 }
 .subscribe-form {
   display: flex;
-  flex-wrap: wrap;
+justify-content: space-between;
 }
 .footer-email-input {
 width: 264px;
@@ -772,7 +777,7 @@ padding-left: 16px;
 
 }
 .subscribe {
-  font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
