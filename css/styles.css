@@ -253,7 +253,7 @@ position: relative;
   fill:#FFFFFF;
 }
 .modal-field{
-  margin-bottom: 26px;
+  margin-bottom: 16px;
 }
 .modal-title{
   font-family: 'Roboto';
@@ -312,6 +312,7 @@ color: #8E8F99;
   outline: transparent;
   resize:none;
   background-color: transparent;
+  display: block;
 }
 .modal-textarea:hover, .modal-textarea:focus{
   border: 1px solid #4D5AE5;
@@ -347,6 +348,7 @@ flex: none;
 order: 1;
 display: flex;
 gap: 8px;
+margin-bottom: 24px;
 
 }
 .modal-lable-prpol::before{
@@ -566,7 +568,10 @@ gap: 8px;
 }
 .container-footer{
   display: flex;
-  gap: 120px;
+  /*-gap: 120px;-*/
+}
+.footer-logo-div{
+  margin-right: 120px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -596,15 +601,12 @@ color: var(--color-cloud);
   margin-top: 16px;
 }
 .footer-soc{
-  
+  margin-right: 80px;
   }
 .footer-soc-title{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,5px;
-/* identical to box height, or 150% */
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
@@ -638,6 +640,64 @@ margin-bottom: 16px;
   background-color: #31D0AA;
 }
 .footer-soc-icon {
+}
+.footer-subscr {
+  height: 80px;
+  
+}
+.footer-soc-title {
+}
+.subscribe-form {
+  display: flex;
+justify-content: space-between;
+}
+.footer-email-input {
+width: 264px;
+height: 40px;
+background-color: transparent;
+border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 16px;
+color: white;
+}
+.subscribe {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 2.0;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+vertical-align: auto;
+}
+.btn-subscribe{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+border: none;
+margin-left: 24px;
+font-family: "Roboto", sans-serif; 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--color-white);
+background: var(--color-iris);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+transition: background-color var(--transat-act), color var(--transat-act);
+}
+.footer-send-icon {
+fill: white;
+margin-left: 16px;
+vertical-align: auto;
 }
 /*!------Portfolio------*/
 .service {
@@ -760,62 +820,4 @@ color: var(--color-slate);
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-}
-.footer-subscr {
-  height: 80px;
-  
-}
-.footer-soc-title {
-}
-.subscribe-form {
-  display: flex;
-justify-content: space-between;
-}
-.footer-email-input {
-width: 264px;
-height: 40px;
-background-color: transparent;
-border: 1px solid #FFFFFF;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-padding-top: 8px;
-padding-bottom: 8px;
-padding-left: 16px;
-color: white;
-}
-.subscribe {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 2.0;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-vertical-align: auto;
-}
-.btn-subscribe{
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 8px 24px;
-border: none;
-margin-left: 24px;
-font-family: "Roboto", sans-serif; 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--color-white);
-background: var(--color-iris);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-cursor: pointer;
-transition: background-color var(--transat-act), color var(--transat-act);
-}
-.footer-send-icon {
-fill: white;
-margin-left: 16px;
-vertical-align: auto;
 }
