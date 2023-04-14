@@ -337,7 +337,9 @@ color: #8E8F99;
     background-repeat: no-repeat;
     background-position: center;
     }-*/
-
+.modal-field-checkbox{
+  margin-bottom: 24px;
+}
 .modal-lable-prpol{
 font-weight: 400;
 font-size: 12px;
@@ -348,7 +350,7 @@ flex: none;
 order: 1;
 display: flex;
 gap: 8px;
-margin-bottom: 24px;
+/*-margin-bottom: 24px;-*/
 
 }
 .modal-lable-prpol::before{
@@ -362,9 +364,6 @@ margin-bottom: 24px;
 .btn-modal{
   width: 169px;
   height: 56px;
-}
-.close-button-icon{
-
 }
 
 .is-hidden {
